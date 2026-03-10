@@ -1,5 +1,5 @@
 context:
-  version: 0.1.1
+  version: "0.2.0"
   python_min: "3.10"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/n/napari-metadata/napari_metadata-${{ version }}.tar.gz
-  sha256: 62841c6f379912ee6fab2fb27df4d14015632791223e6896259c0eefaf0042d3
+  sha256: a1b8597b2e9f1bfe8107e0eb8e3d6689b663bccb8b55d669ea54491425e6e83a
 
 build:
   number: 0
@@ -17,21 +17,21 @@ build:
 
 requirements:
   host:
-  - python >=${{ python_min }}
-  - setuptools >=77.0.3
-  - setuptools_scm
-  - pip
+    - python >=${{ python_min }}
+    - setuptools >=77.0.3
+    - setuptools_scm
+    - pip
   run:
-  - python >=${{ python_min }}
-  - numpy
-  - qtpy
-  - pint
+    - python >=${{ python_min }}
+    - numpy
+    - qtpy
+    - pint
 
 tests:
-- python:
-    imports:
-    - napari_metadata._model
-    pip_check: true
+  - python:
+      imports:
+        - napari_metadata._model
+      pip_check: true
 
 about:
   summary: View and edit napari layer metadata
