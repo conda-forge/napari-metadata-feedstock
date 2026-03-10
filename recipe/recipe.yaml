@@ -26,6 +26,7 @@ requirements:
     - numpy
     - qtpy
     - pint
+    - typing_extensions 
 
 tests:
   - python:
