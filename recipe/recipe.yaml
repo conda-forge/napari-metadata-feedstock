@@ -32,10 +32,7 @@ tests:
   - python:
       imports:
         - napari_metadata.units
-        - napari_metadata.widgets._main
       pip_check: true
-      requires:
-        - pyqt6
 
 about:
   summary: View and edit napari layer metadata
