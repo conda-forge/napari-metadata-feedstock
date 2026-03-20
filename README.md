@@ -20,11 +20,10 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=27333&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/napari-metadata-feedstock?branchName=main">
-      </a>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
     </td>
   </tr>
 </table>
@@ -153,7 +152,4 @@ Feedstock Maintainers
 * [@TimMonko](https://github.com/TimMonko/)
 * [@carlosmariorr](https://github.com/carlosmariorr/)
 * [@conda-forge/napari](https://github.com/orgs/conda-forge/teams/napari/)
-
-
-<!-- dummy commit to enable rerendering -->
 
