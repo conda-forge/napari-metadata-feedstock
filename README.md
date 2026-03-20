@@ -154,3 +154,6 @@ Feedstock Maintainers
 * [@carlosmariorr](https://github.com/carlosmariorr/)
 * [@conda-forge/napari](https://github.com/orgs/conda-forge/teams/napari/)
 
+
+<!-- dummy commit to enable rerendering -->
+
