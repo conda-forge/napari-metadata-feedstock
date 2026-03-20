@@ -1,5 +1,5 @@
 context:
-  version: "0.2.0"
+  version: "0.3.0"
   python_min: "3.10"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/n/napari-metadata/napari_metadata-${{ version }}.tar.gz
-  sha256: a1b8597b2e9f1bfe8107e0eb8e3d6689b663bccb8b55d669ea54491425e6e83a
+  sha256: 89ef0d7543dd0a8f74fc1bf5227907d9b5d821f82f380f69078d5a572677539b
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - numpy
     - qtpy
     - pint
-    - typing_extensions 
+    - typing_extensions
 
 tests:
   - python:
