@@ -27,6 +27,7 @@ requirements:
     - qtpy
     - pint
     - typing_extensions
+    - superqt
 
 tests:
   - python:
